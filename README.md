@@ -1,4 +1,4 @@
-# FinSight AI 🧠
+# FinSight AI 
 
 > **Autonomous Financial Intelligence Agent** — Production-grade RAG + Multi-Agent system with React dashboard, FastAPI backend, and full MLOps pipeline deployed on AWS EKS via Terraform.
 
