@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+*.log
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.local
+
+# ML artifacts
+*.pkl
+*.joblib
+*.h5
+models/
+*.faiss
+*.index
+*.npy
+
+# AWS / Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+*.tfvars
+!*.tfvars.example
+.terraform.lock.hcl
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Docker
+.dockerignore
+
+# Test / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+.mypy_cache/
